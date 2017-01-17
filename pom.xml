@@ -3,7 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.genfun.enttemplate</groupId>
   <artifactId>maven-baseline</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>${archetypeVersion}</version>
   <name>Archetype - maven-baseline</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <archetypeVersion>1.0.0-SNAPSHOT</archetypeVersion>
+  </properties>
 </project>
